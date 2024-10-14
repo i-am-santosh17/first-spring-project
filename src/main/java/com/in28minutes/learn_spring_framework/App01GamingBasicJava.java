@@ -7,11 +7,11 @@ import com.in28minutes.learn_spring_framework.game.SuperContraGame;
 
 public class App01GamingBasicJava {
 
-//    public static void main(String[] args){
-//        MarioGame marioGame = new MarioGame();
-//        var superContraGame = new SuperContraGame();
-//        var packMan = new PackMan();
-//        GameRunner gameRunner = new GameRunner(packMan);
-//        gameRunner.run();
-//    }
+    public static void main(String[] args){
+        MarioGame marioGame = new MarioGame();
+        var superContraGame = new SuperContraGame();
+        var packMan = new PackMan();
+        GameRunner gameRunner = new GameRunner(packMan);
+        gameRunner.run();
+    }
 }
